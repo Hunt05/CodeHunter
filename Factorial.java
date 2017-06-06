@@ -6,9 +6,8 @@ public class Factorial
 public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
-int n1=new int();
+int n1,fact=1;
 n1=s.nextInt();
-int fact=0;
 for(int i=0;i<=n1;i++)
 {
 fact=fact*i;
